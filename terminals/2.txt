@@ -1,0 +1,34 @@
+---
+pid: 21180
+cwd: "C:\Users\mista\Documents\BALLTBALL"
+command: "node \"C:\\Users\\mista\\Documents\\BALLTBALL\\security-poc\\test-browser.mjs\""
+started_at: 2026-07-05T13:23:16.286Z
+running_for_ms: 18705006 
+---
+Loading mazean.com with injected hook...
+
+=== BROWSER TEST RESULT ===
+{
+  "timestamp": "2026-07-05T13:23:16.785Z",
+  "tests": {
+    "browserHook": {
+      "pocInstalled": false,
+      "pocStats": null,
+      "wasmBindingsPresent": true,
+      "wasmBindingFunctions": 2,
+      "canvasPresent": true,
+      "espOverlayPresent": false,
+      "wsOpened": 0,
+      "wsInbound": 0,
+      "wsOutbound": 0,
+      "performanceNowScaled": false
+    },
+    "consoleLogs": []
+  },
+  "verdict": {
+    "hookInstalled": false,
+    "websocketIntercepted": false,
+    "wasmExposed": true,
+    "espOverlayWorks": false
+  }
+}

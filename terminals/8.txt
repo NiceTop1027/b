@@ -1,0 +1,15 @@
+---
+pid: 33140
+cwd: "C:\Users\mista\Documents\BALLTBALL"
+command: "node \"C:\\Users\\mista\\Documents\\BALLTBALL\\security-poc\\test-extension.mjs\""
+started_at: 2026-07-05T14:06:51.095Z
+running_for_ms: 16089991 
+---
+{
+  "result": {
+    "capture": "undefined",
+    "badge": false,
+    "badgeText": null,
+    "stats": null
+  }
+}

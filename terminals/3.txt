@@ -1,0 +1,33 @@
+---
+pid: 27220
+cwd: "C:\Users\mista\Documents\BALLTBALL"
+command: "node \"C:\\Users\\mista\\Documents\\BALLTBALL\\security-poc\\test-browser.mjs\""
+started_at: 2026-07-05T13:25:56.662Z
+running_for_ms: 18545007 
+---
+{
+  "timestamp": "2026-07-05T13:25:57.098Z",
+  "tests": {
+    "browserHook": {
+      "pocInstalled": false,
+      "initError": "TypeError: Cannot assign to read only property 'prototype' of function 'class HookedWebSocket extends NativeWebSocket {\n    constructor(url, protocols) {\n      super(url, protocols);\n...<omitted>... }'\n    at mazeanSecurityPoc (eval at <anonymous> (:5:7), <anonymous>:120:34)\n    at eval (eval at <anonymous> (:5:7), <anonymous>:320:3)\n    at <anonymous>:5:7\n    at <anonymous>:9:5\n    at <anonymous>:10:7",
+      "pocStats": null,
+      "wasmBindingsPresent": true,
+      "canvasPresent": true,
+      "espOverlayPresent": false,
+      "wsOpened": 0,
+      "wsInbound": 0
+    }
+  },
+  "errors": [
+    "console: Failed to load resource: the server responded with a status of 400 ()",
+    "console: Failed to load resource: the server responded with a status of 400 ()",
+    "console: Failed to load resource: the server responded with a status of 400 ()"
+  ],
+  "verdict": {
+    "hookInstalled": false,
+    "websocketIntercepted": false,
+    "wasmExposed": true,
+    "espOverlayWorks": false
+  }
+}

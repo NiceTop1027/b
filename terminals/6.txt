@@ -1,0 +1,54 @@
+---
+pid: 8640
+cwd: "C:\Users\mista\Documents\BALLTBALL"
+command: "node \"C:\\Users\\mista\\Documents\\BALLTBALL\\security-poc\\test-capture.mjs\""
+started_at: 2026-07-05T13:45:45.176Z
+running_for_ms: 17359997 
+---
+{
+  "timestamp": "2026-07-05T13:45:45.625Z",
+  "tests": {
+    "capture": {
+      "installed": true,
+      "stats": {
+        "ws": 0,
+        "wt": 389,
+        "connections": 1,
+        "connTypes": [
+          "wt"
+        ]
+      },
+      "connections": [
+        {
+          "t": 1783259153950,
+          "type": "wt",
+          "url": "https://1.mazean.com?language_id=ko&timezone_offset=-540&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F149.0.7827.55+Safari%2F537.36&dns=69&tcp=67&tls=70&http=67&dom=72"
+        }
+      ]
+    }
+  },
+  "logs": [
+    "[mazean-capture] v0.3.0 ready. Reload, play, then __MAZEAN_CAPTURE__.download()",
+    "[mazean-capture] wt https://1.mazean.com?language_id=ko&timezone_offset=-540&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F149.0.7827.55+Safari%2F537.36&dns=69&tcp=67&tls=70&http=67&dom=72",
+    "[mazean-capture] v0.3.0 ready. Reload, play, then __MAZEAN_CAPTURE__.download()",
+    "[mazean-capture] v0.3.0 ready. Reload, play, then __MAZEAN_CAPTURE__.download()",
+    "[mazean-capture] v0.3.0 ready. Reload, play, then __MAZEAN_CAPTURE__.download()",
+    "[mazean-capture] v0.3.0 ready. Reload, play, then __MAZEAN_CAPTURE__.download()",
+    "[mazean-capture] v0.3.0 ready. Reload, play, then __MAZEAN_CAPTURE__.download()",
+    "[mazean-capture] v0.3.0 ready. Reload, play, then __MAZEAN_CAPTURE__.download()",
+    "[mazean-capture] v0.3.0 ready. Reload, play, then __MAZEAN_CAPTURE__.download()",
+    "[mazean-capture] v0.3.0 ready. Reload, play, then __MAZEAN_CAPTURE__.download()",
+    "[mazean-capture] WT frames: 50",
+    "[mazean-capture] WT frames: 100",
+    "[mazean-capture] WT frames: 150",
+    "[mazean-capture] WT frames: 200",
+    "[mazean-capture] WT frames: 250",
+    "[mazean-capture] WT frames: 300",
+    "[mazean-capture] WT frames: 350"
+  ],
+  "verdict": {
+    "hookInstalled": true,
+    "anyConnection": true,
+    "anyFrames": true
+  }
+}

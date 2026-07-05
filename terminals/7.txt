@@ -1,0 +1,17 @@
+---
+pid: 34164
+cwd: "C:\Users\mista\Documents\BALLTBALL"
+command: "node \"C:\\Users\\mista\\Documents\\BALLTBALL\\security-poc\\test-page-structure.mjs\""
+started_at: 2026-07-05T13:56:28.717Z
+running_for_ms: 16715010 
+---
+page.goto: Timeout 90000ms exceeded.
+Call log:
+  - navigating to "https://mazean.com/", waiting until "networkidle"
+
+    at main (C:\Users\mista\Documents\BALLTBALL\security-poc\test-page-structure.mjs:12:14) {
+  log: [
+    '  - navigating to "https://mazean.com/", waiting until "networkidle"'
+  ],
+  name: 'TimeoutError'
+}

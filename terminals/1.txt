@@ -1,0 +1,45 @@
+---
+pid: 10232
+cwd: "C:\Users\mista\Documents\BALLTBALL"
+command: "cmd /c \"cd /d C:\\Users\\mista\\Documents\\BALLTBALL && npm install playwright --no-save && npx playwright install chromium\""
+started_at: 2026-07-05T13:12:45.701Z
+running_for_ms: 19335003 
+---
+
+added 2 packages, and audited 61 packages in 2s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Downloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228) from https://cdn.playwright.dev/builds/cft/149.0.7827.55/win64/chrome-win64.zip
+|                                                                                |   0% of 183.6 MiB
+|■■■■■■■■                                                                        |  10% of 183.6 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 183.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 183.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 183.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 183.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 183.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 183.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 183.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 183.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 183.6 MiB
+Chrome for Testing 149.0.7827.55 (playwright chromium v1228) downloaded to C:\Users\mista\AppData\Local\ms-playwright\chromium-1228
+Downloading Chrome Headless Shell 149.0.7827.55 (playwright chromium-headless-shell v1228) from https://cdn.playwright.dev/builds/cft/149.0.7827.55/win64/chrome-headless-shell-win64.zip
+|                                                                                |   0% of 113.6 MiB
+|■■■■■■■■                                                                        |  10% of 113.6 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 113.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 113.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 113.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 113.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 113.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 113.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 113.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 113.6 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 113.6 MiB
+Chrome Headless Shell 149.0.7827.55 (playwright chromium-headless-shell v1228) downloaded to C:\Users\mista\AppData\Local\ms-playwright\chromium_headless_shell-1228

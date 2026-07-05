@@ -1,0 +1,18 @@
+{
+  "name": "notion-download-attachment",
+  "description": "Download the contents of a small UTF-8 text attachment created by the Notion MCP `create-attachment` tool.\n\nPass the `file_upload_id` returned by `create-attachment`. The attachment must belong to the requesting integration, have completed uploading, and use a supported text format such as HTML, Markdown, plain text, CSV, JSON, XML, CSS, YAML, TSV, calendar, GPX, or SVG.\n\nThe response contains the complete text in `content` so you can save it locally, edit it, and call `create-attachment` again to upload a new version. Downloads are limited to 200 KiB. This tool does not fetch arbitrary URLs or return binary files. For larger or binary attachments, use the signed file URL returned when reading the containing Notion page.\n\n<examples>\n1. Download a text attachment: {\"file_upload_id\":\"12345678-90ab-cdef-1234-567890abcdef\"}\n</examples>",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "file_upload_id": {
+        "type": "string",
+        "description": "The FileUpload ID returned by the create-attachment tool."
+      }
+    },
+    "required": [
+      "file_upload_id"
+    ],
+    "additionalProperties": {}
+  }
+}

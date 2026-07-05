@@ -1,0 +1,80 @@
+---
+pid: 5308
+cwd: "C:\Users\mista\Documents\BALLTBALL"
+command: "node --check \"C:\\Users\\mista\\Documents\\BALLTBALL\\security-poc\\mazean-hook-poc.js\"; node \"C:\\Users\\mista\\Documents\\BALLTBALL\\security-poc\\test-browser.mjs\""
+started_at: 2026-07-05T13:27:27.053Z
+running_for_ms: 18455010 
+---
+{
+  "timestamp": "2026-07-05T13:27:27.523Z",
+  "tests": {
+    "consoleLogs": [
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold hooks installed — reload page if game already connected WebSocket before injection",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold controls: __MAZEAN_POC__.dump(), .setMouseMultiplier(5), .setTimeScale(2), .enableTamper(true)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold F6 toggles auto-fire demo",
+      "%c[mazean-poc:render] color:#ff6b6b;font-weight:bold ESP overlay active (demo boxes — wire to decoded WS state for real wallhack)",
+      "%c[mazean-poc:wasm] color:#ff6b6b;font-weight:bold game WASM started {wasm: Object}",
+      "%c[mazean-poc:wasm] color:#ff6b6b;font-weight:bold wasmBindings exposes 2 functions [default, initSync]",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold hooks installed — reload page if game already connected WebSocket before injection",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold controls: __MAZEAN_POC__.dump(), .setMouseMultiplier(5), .setTimeScale(2), .enableTamper(true)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold F6 toggles auto-fire demo",
+      "%c[mazean-poc:render] color:#ff6b6b;font-weight:bold ESP overlay active (demo boxes — wire to decoded WS state for real wallhack)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold hooks installed — reload page if game already connected WebSocket before injection",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold controls: __MAZEAN_POC__.dump(), .setMouseMultiplier(5), .setTimeScale(2), .enableTamper(true)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold F6 toggles auto-fire demo",
+      "%c[mazean-poc:render] color:#ff6b6b;font-weight:bold ESP overlay active (demo boxes — wire to decoded WS state for real wallhack)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold hooks installed — reload page if game already connected WebSocket before injection",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold controls: __MAZEAN_POC__.dump(), .setMouseMultiplier(5), .setTimeScale(2), .enableTamper(true)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold F6 toggles auto-fire demo",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold hooks installed — reload page if game already connected WebSocket before injection",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold controls: __MAZEAN_POC__.dump(), .setMouseMultiplier(5), .setTimeScale(2), .enableTamper(true)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold F6 toggles auto-fire demo",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold hooks installed — reload page if game already connected WebSocket before injection",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold controls: __MAZEAN_POC__.dump(), .setMouseMultiplier(5), .setTimeScale(2), .enableTamper(true)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold F6 toggles auto-fire demo",
+      "%c[mazean-poc:render] color:#ff6b6b;font-weight:bold ESP overlay active (demo boxes — wire to decoded WS state for real wallhack)",
+      "%c[mazean-poc:render] color:#ff6b6b;font-weight:bold ESP overlay active (demo boxes — wire to decoded WS state for real wallhack)",
+      "%c[mazean-poc:render] color:#ff6b6b;font-weight:bold ESP overlay active (demo boxes — wire to decoded WS state for real wallhack)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold hooks installed — reload page if game already connected WebSocket before injection",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold controls: __MAZEAN_POC__.dump(), .setMouseMultiplier(5), .setTimeScale(2), .enableTamper(true)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold F6 toggles auto-fire demo",
+      "%c[mazean-poc:render] color:#ff6b6b;font-weight:bold ESP overlay active (demo boxes — wire to decoded WS state for real wallhack)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold hooks installed — reload page if game already connected WebSocket before injection",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold controls: __MAZEAN_POC__.dump(), .setMouseMultiplier(5), .setTimeScale(2), .enableTamper(true)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold F6 toggles auto-fire demo",
+      "%c[mazean-poc:render] color:#ff6b6b;font-weight:bold ESP overlay active (demo boxes — wire to decoded WS state for real wallhack)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold hooks installed — reload page if game already connected WebSocket before injection",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold controls: __MAZEAN_POC__.dump(), .setMouseMultiplier(5), .setTimeScale(2), .enableTamper(true)",
+      "%c[mazean-poc:init] color:#ff6b6b;font-weight:bold F6 toggles auto-fire demo",
+      "%c[mazean-poc:render] color:#ff6b6b;font-weight:bold ESP overlay active (demo boxes — wire to decoded WS state for real wallhack)"
+    ],
+    "browserHook": {
+      "pocInstalled": true,
+      "initError": null,
+      "pocStats": {
+        "wsOpened": 0,
+        "wsInbound": 0,
+        "wsOutbound": 0,
+        "mouseEventsHooked": 0,
+        "keyboardEventsHooked": 0,
+        "tamperRejected": 0
+      },
+      "wasmBindingsPresent": true,
+      "canvasPresent": true,
+      "espOverlayPresent": true,
+      "wsOpened": 0,
+      "wsInbound": 0
+    }
+  },
+  "errors": [
+    "console: Failed to load resource: the server responded with a status of 400 ()",
+    "console: Failed to load resource: the server responded with a status of 400 ()",
+    "console: Failed to load resource: the server responded with a status of 400 ()"
+  ],
+  "verdict": {
+    "hookInstalled": true,
+    "websocketIntercepted": false,
+    "wasmExposed": true,
+    "espOverlayWorks": true
+  }
+}
